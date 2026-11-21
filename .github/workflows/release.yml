@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish-release:
-    if: github.repository == 'k1tbyte/Wand-Enhancer'
+    if: github.repository == 'dolutime-hue/Wand-Enhancer'
     runs-on: windows-latest
     permissions:
       contents: write
